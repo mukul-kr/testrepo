@@ -1,0 +1,31 @@
+Folder:
+  - Name: "Folder"
+    Folder:
+      - Name: "Subfolder 1"
+        Folder:
+          - Name: "Subfolder 1.1"
+            Folder:
+              - Name: "Subfolder 1.1.1"
+                Folder:
+                  - Name: "Subfolder"
+        Files:
+          - Name: "file1.txt"
+            Content: "Hello World"
+      - Name: "Subfolder 2"
+        Files:
+          - Name: "file1.txt"
+            Content: "Hello World"
+    Files:
+      - Name: "File1"
+        Content: |
+          This is the content of the file 1
+      - Name: "File2"
+        Content: |
+          This is the content of the file 2
+Files:
+  - Name: "File1"
+    Content: |
+      This is the content of the file 1
+  - Name: "File2"
+    Content: |
+      This is the content of the file 2
